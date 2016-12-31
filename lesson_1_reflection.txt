@@ -1,0 +1,61 @@
+How did viewing a diff between two versions of a file help you see the bug that
+ was introduced?
+
+    
+
+There was a typo in the new file ,which wasnt in the old file.When we compare the lines of code in old file with the new.We get line of codes which are differring in nature.So,by comparing the lines of code of new file with the other,we can identify the changes/bugs between the two.  
+
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+    
+
+If changes are regular,then it is essiential to have the copy of previous versions of file.So that whenever we want to use previous version,we have instant access to it.It also helps the programmer to view how the file has evolved over time.
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    
+
+By manually committing, we can commit after we perform logical changes to a file.If we have automatic commits as in google docs,the file can be committed at any point of time.This will be result in saving a file which has compile errors , since commit was made at the middle of changing the code.  
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+  
+
+if there is dependency of files ,then all these files need to be changed and committed at once.So for that purpose we need multiple files in one commit.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+   
+
+commands - message
+$ git long - lists all the commits performed on the files present in a repository.
+$ git diff commitid1 commitid2 - is used to check the two versions of a file whose commit id's are commitid1 and commitid2. 
+
+
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+    
+
+By using version control , searching becomes very easy.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    
+
+
+
+I want to use it for identifying any bugs in my mini projects.
